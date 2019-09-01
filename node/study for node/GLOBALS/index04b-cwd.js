@@ -6,5 +6,5 @@ var sourceFileDire = path.dirname(sourceFilePath);
 
 console.log(process.cwd());
 // process.chdir(path.dirname(process.argv[1]));
-procerss.chdir(__dirname)
+process.chdir(__dirname);
 console.log(process.cwd());
